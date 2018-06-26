@@ -1,0 +1,26 @@
+/*Fake Google CSS*/
+
+*{
+  margin:0
+  padding:0
+}
+
+body{
+  font-family: Arial, sans-sans-serif;
+  font-size: 14px;
+  background-color: #555
+}
+
+h1#logo{
+  width:272px;
+  height:92px;
+  background:url('images/google.png') no-repeat;
+  background-size: 100%;
+  text-indent:-9999px;
+  margin: 0 auto;
+}
+#container{
+  width: 580px;
+  margin: 0 auto;
+  text-align: center;
+}
