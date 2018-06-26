@@ -8,7 +8,7 @@
 body{
   font-family: Arial, sans-sans-serif;
   font-size: 14px;
-  background-color: #555
+  background-color: #000;
 }
 
 h1#logo{
@@ -21,6 +21,73 @@ h1#logo{
 }
 #container{
   width: 580px;
-  margin: 0 auto;
+  margin: 150 auto ;
   text-align: center;
+}
+
+input[type="text"]{
+  width: 580px;
+  padding: 10px;
+  margin: 15px 0 10px;
+  border: solid 1px #000;
+  font-size: 16px;
+  background-color: #989;
+}
+
+input [type="text"]:hover{
+  border-color: rgb(0,255,0);
+}
+
+a:link, a:visited{
+  color: teal;
+}
+
+nav#header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav#header ul{
+  float: left;
+}
+nav#header ul li{
+  padding: 15px;
+  display: inline;
+}
+nav#header ul.right-links{
+  float:right;
+  text-align: right;
+}
+
+nav#header ul li a:link, nav ul li a:visited{
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+footer {
+  background: #222;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer nav{
+  padding: 0px 50px;
+}
+
+footer nav ul li{
+  display: inline;
+}
+
+footer nav ul{
+  float: left;
+}
+
+footer nav ul.right-links{
+  float: right;
+  text-align: right;
 }
